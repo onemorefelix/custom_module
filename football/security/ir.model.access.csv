@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+club_user,Club,model_club_profile,base.group_user,1,1,1,1
+player_user,Player,model_player_profile,base.group_user,1,1,1,1

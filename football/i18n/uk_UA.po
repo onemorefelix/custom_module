@@ -1,0 +1,151 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* football
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-14 18:52+0000\n"
+"PO-Revision-Date: 2021-01-14 18:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_player_profile__birthday_date
+msgid "Birthday Date"
+msgstr "Дата Народження"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_player_profile__club_id
+msgid "Club"
+msgstr "Клуб"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__name
+msgid "Club Name"
+msgstr "Назва Клубу"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__create_uid
+#: model:ir.model.fields,field_description:football.field_player_profile__create_uid
+msgid "Created by"
+msgstr "Створено"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__create_date
+#: model:ir.model.fields,field_description:football.field_player_profile__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__description
+#: model:ir.model.fields,field_description:football.field_player_profile__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__display_name
+#: model:ir.model.fields,field_description:football.field_player_profile__display_name
+msgid "Display Name"
+msgstr "Відображуване ім’я"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_player_profile__email
+msgid "Email"
+msgstr "Електронна Пошта"
+
+#. module: football
+#: model:ir.ui.menu,name:football.club_root_menu
+msgid "Football Manager"
+msgstr "Футбольний Менеджер"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_player_profile__name
+msgid "Full Name"
+msgstr "Повне ім'я"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__id
+#: model:ir.model.fields,field_description:football.field_player_profile__id
+msgid "ID"
+msgstr ""
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile____last_update
+#: model:ir.model.fields,field_description:football.field_player_profile____last_update
+msgid "Last Modified on"
+msgstr "Востаннє Змінено"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__write_uid
+#: model:ir.model.fields,field_description:football.field_player_profile__write_uid
+msgid "Last Updated by"
+msgstr "Востаннє Оновлено"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__write_date
+#: model:ir.model.fields,field_description:football.field_player_profile__write_date
+msgid "Last Updated on"
+msgstr "Востаннє Оновлено"
+
+#. module: football
+#: model:ir.actions.act_window,name:football.action_club_profile
+#: model:ir.ui.menu,name:football.club_profile_menu1
+msgid "List of clubs"
+msgstr "Список Клубів"
+
+#. module: football
+#: model:ir.actions.act_window,name:football.action_footballer_profile
+#: model:ir.ui.menu,name:football.club_profile_menu2
+msgid "List of football players"
+msgstr "Список гравців"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__player_counts
+msgid "Number of player"
+msgstr "Кількість гравців"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_player_profile__phone
+msgid "Phone"
+msgstr "Телефон"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__player_list
+msgid "Player List"
+msgstr "Список гравців"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_player_profile__salary
+msgid "Salary"
+msgstr "Зарплата"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__site
+msgid "Site"
+msgstr "Сайт"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_club_profile__image
+msgid "Upload Club Photo"
+msgstr "Завантажити Фото Клубу"
+
+#. module: football
+#: model:ir.model.fields,field_description:football.field_player_profile__image
+msgid "Upload Profile Photo"
+msgstr "Завантажити Фото Профілю"
+
+#. module: football
+#: model:ir.model,name:football.model_club_profile
+msgid "club.profile"
+msgstr ""
+
+#. module: football
+#: model:ir.model,name:football.model_player_profile
+msgid "player.profile"
+msgstr ""

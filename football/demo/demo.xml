@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+
+          <record id="object0" model="football.football">
+            <field name="name">Object 0</field>
+            <field name="description">Descr</field>
+          </record>
+
+    </data>
+</odoo>

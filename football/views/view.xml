@@ -1,0 +1,56 @@
+<odoo>
+    <record id="club_list_view" model="ir.ui.view">
+        <field name="name">club.list.view</field>
+        <field name="model">club.profile</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="players_count"/>
+                <field name="description"/>
+                <field name="site"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_club_profile" model="ir.actions.act_window">
+        <field name="name">List of clubs</field>
+        <field name="res_model">club.profile</field>
+        <field name="view_mode">tree,form,kanban</field>
+    </record>
+
+    <record id="player_list_view" model="ir.ui.view">
+        <field name="name">player.list.view</field>
+        <field name="model">player.profile</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="club_id"/>
+                <field name="phone"/>
+                <field name="email"/>
+                <field name="salary"/>
+                <field name="birthday_date"/>
+            </tree>
+        </field>
+    </record>
+
+
+
+    <record id="action_footballer_profile" model="ir.actions.act_window">
+        <field name="name">List of football players</field>
+        <field name="res_model">player.profile</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <menuitem id="club_root_menu" name="Football Manager"/>
+
+    <!--    <menuitem id="club_sub_menu1" parent="club_root_menu" name="List of clubs"/>-->
+    <!--    <menuitem id="club_sub_menu2" parent="club_root_menu" name="Footballers list"/>-->
+
+    <menuitem id="club_profile_menu1" action="action_club_profile" parent="club_root_menu"/>
+    <menuitem id="club_profile_menu2" action="action_footballer_profile" parent="club_root_menu"/>
+    <!--    <menuitem name="List of clubs" id="club_sub_menu1_List" parent="club_sub_menu1" action="action_club_profile"/>-->
+    <!--    <menuitem name="Footballers list" id="club_sub_menu2_List" parent="club_sub_menu1" action="action_footballer_profile"/>-->
+    <!--    <menuitem name="Foo2" id="club_sub_menu2_Foo" parent="club_sub_menu2" action="action_footballer_profile"/>-->
+
+</odoo>
