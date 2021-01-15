@@ -106,7 +106,7 @@ msgid "List of football players"
 msgstr "Список гравців"
 
 #. module: football
-#: model:ir.model.fields,field_description:football.field_club_profile__player_counts
+#: model:ir.model.fields,field_description:football.field_club_profile__players_count
 msgid "Number of player"
 msgstr "Кількість гравців"
 
